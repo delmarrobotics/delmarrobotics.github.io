@@ -85,7 +85,8 @@
         let prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
             let currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos || currentScrollPos < 10) {
+            let documentHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            if (prevScrollpos > currentScrollPos || currentScrollPos < 10 || currentScrollPos >= documentHeight - window.innerHeight) {
                 document.querySelector("header").style.top = "0";
             } else {
                 document.querySelector("header").style.top = "-100px";
@@ -93,5 +94,6 @@
             prevScrollpos = currentScrollPos;
         }
     </script>
+
 </body>
 </html>
