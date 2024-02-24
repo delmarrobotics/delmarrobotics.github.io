@@ -28,6 +28,7 @@
         .container {
             text-align: center;
             padding-top: 100px;
+            height: 2000px; /* Example height for demonstration */
         }
         .box {
             width: 300px;
@@ -45,7 +46,7 @@
     </style>
 </head>
 <body>
-    <header>
+    <header id="navbar">
         <!-- Logo on the far left -->
         <img class="squish" src="logo.png" alt="Del Mar Robotics Team" style="width: 150px;" />
         <!-- Navigation bar -->
@@ -66,9 +67,9 @@
         window.onscroll = function() {
             let currentScrollPos = window.pageYOffset;
             if (prevScrollpos > currentScrollPos) {
-                document.querySelector("header").style.top = "0";
+                document.querySelector("#navbar").style.top = "0";
             } else {
-                document.querySelector("header").style.top = "-100px";
+                document.querySelector("#navbar").style.top = "-100px";
             }
             prevScrollpos = currentScrollPos;
         }
