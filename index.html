@@ -7,15 +7,27 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
+            padding: 0;
+            background-color: #cfe8fc; /* light blue */
+        }
+        header {
+            position: fixed;
+            width: 100%;
+            background-color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 1000;
+            transition: top 0.3s;
+        }
+        .squish {
+            max-width: 100%;
+            height: auto;
+            transition: max-width 0.3s;
         }
         .container {
             text-align: center;
+            padding-top: 100px;
         }
         .box {
             width: 300px;
@@ -33,9 +45,33 @@
     </style>
 </head>
 <body>
+    <header>
+        <!-- Logo on the far left -->
+        <img class="squish" src="logo.png" alt="Del Mar Robotics Team" style="width: 150px;" />
+        <!-- Navigation bar -->
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+            <a href="#donate">Donate</a>
+        </nav>
+    </header>
     <div class="container">
         <div class="box">Del Mar Robotics Team</div>
         <div class="box">From Del Mar Middle School</div>
     </div>
+
+    <script>
+        let prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            let currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.querySelector("header").style.top = "0";
+            } else {
+                document.querySelector("header").style.top = "-100px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
 </body>
 </html>
