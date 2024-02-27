@@ -21,8 +21,8 @@
             text-align: center;
             z-index: 1000;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            transition: top 0.3s;
-            height: 100px;
+            transition: top 1s;
+            height: 100%;
         }
         .logo {
             width: 120px;
@@ -128,7 +128,7 @@
                     document.querySelector("header").style.top = "0";
                 }
             } else {
-                document.querySelector("header").style.top = "-100px";
+                document.querySelector("header").style.top = "-100%";
             }
             if (isInitialScroll) {
                 isInitialScroll = false;
