@@ -6,7 +6,6 @@ body {
     background-color: #add8e6; /* light blue */
 }
 header {
-    position: fixed;
     width: 100%;
     background-color: #f2f2f2; /* light grey */
     padding: 20px 0;
@@ -15,6 +14,10 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: top 1s;
     height: auto;
+}
+#links {
+    position: -webkit-sticky;
+    position: sticky;
 }
 .logo {
     width: 120px;
