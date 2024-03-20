@@ -11,6 +11,7 @@ header {
     text-align: center;
     z-index: 100;
     padding: 1rem 0;
+    top: 0;
 }
 #links {
     position: -webkit-sticky;
