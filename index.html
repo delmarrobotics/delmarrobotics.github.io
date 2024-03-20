@@ -30,31 +30,5 @@
         </div>
         <div class="box">From Del Mar Middle School</div>
     </div>
-
-    <script>
-        let prevScrollpos = window.pageYOffset;
-        let isInitialScroll = true;
-
-        window.onload = function() {
-            prevScrollpos = window.pageYOffset;
-            document.querySelector("header").style.top = "0";
-        }
-
-        window.onscroll = function() {
-            let currentScrollPos = window.pageYOffset;
-            let documentHeight = document.documentElement.scrollHeight - window.innerHeight;
-            if (prevScrollpos > currentScrollPos || currentScrollPos < 10 || currentScrollPos >= documentHeight) {
-                if (!isInitialScroll || currentScrollPos < 10) {
-                    document.querySelector("header").style.top = "0";
-                }
-            } else {
-                document.querySelector("header").style.top = "-100%";
-            }
-            if (isInitialScroll) {
-                isInitialScroll = false;
-            }
-            prevScrollpos = currentScrollPos;
-        }
-    </script>
 </body>
 </html>
