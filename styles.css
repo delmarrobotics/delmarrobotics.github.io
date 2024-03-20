@@ -42,7 +42,7 @@ header {
     background: url('https://bethwiseman.com/wp-content/uploads/2012/02/TEST-BANNER1.jpg') center/cover no-repeat;
     transition: height 0.3s;
     position: relative;
-    top: 80px; /* adjust the top position as needed */
+    top: 0px; /* adjust the top position as needed */
 }
 .container {
     text-align: center;
