@@ -20,7 +20,7 @@ header {
     background-color: none;
 }
 .logo {
-    width:60px;
+    width:120px;
     height: auto;
     background: url('logo.svg') center/contain no-repeat rgb(8, 145, 211);
     transition: all 0.3s;
