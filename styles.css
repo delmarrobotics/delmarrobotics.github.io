@@ -22,7 +22,7 @@ header {
 .logo {
     width:60px;
     height: auto;
-    background: url('https://21925.robotnet.net/logo.svg') center/contain no-repeat rgb(8, 145, 211);
+    background: url('logo.svg') center/contain no-repeat rgb(8, 145, 211);
     transition: all 0.3s;
     position: relative;
     
