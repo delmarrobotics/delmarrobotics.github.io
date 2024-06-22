@@ -12,20 +12,26 @@ header {
     z-index: 100;
     padding: 1rem 0;
     top: 0;
+    background-color: rgb(8, 145, 211);
 }
 #links {
     position: -webkit-sticky;
     position: sticky;
+    background-color: none;
 }
 .logo {
-    width: 120px;
+    width:60px;
     height: auto;
+    background: url('https://21925.robotnet.net/logo.svg') center/contain no-repeat rgb(8, 145, 211);
     transition: all 0.3s;
+    position: relative;
+    
 }
 .navbar {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    
 }
 .navbar a {
     text-decoration: none;
@@ -38,15 +44,15 @@ header {
 }
 .banner {
     width: 100%;
-    height: 200px;
-    background: url('https://bethwiseman.com/wp-content/uploads/2012/02/TEST-BANNER1.jpg') center/cover no-repeat;
+    height: 100px;
+    background: center/contain no-repeat rgb(8, 145, 211);
     transition: height 0.3s;
     position: relative;
     top: 0px; /* adjust the top position as needed */
 }
 .container {
     text-align: center;
-    padding-top: 150px;
+    padding-top: 0px;
 }
 .box {
     width: 95%;
