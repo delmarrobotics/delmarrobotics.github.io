@@ -80,7 +80,8 @@ header {
 h1 {
     font-size: 36px; /* title font size */
     text-align: center;
-    margin-bottom: 20px; /* add space between title and paragraph */
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 p {
