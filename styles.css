@@ -6,13 +6,13 @@ body {
     background-color: #add8e6; /* light blue */
 }
 header {
+    background-color: rgb(8, 145, 211);
     width: 100%;
     /*background-color: #f2f2f2;*/ /* light grey */
     text-align: center;
     z-index: 100;
     padding: 1rem 0;
     top: 0;
-    background-color: rgb(8, 145, 211);
 }
 #links {
     position: -webkit-sticky;
