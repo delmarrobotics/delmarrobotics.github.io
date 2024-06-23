@@ -98,3 +98,11 @@ hr {
   height: 8%;
   width: 95%;
 }
+
+a:link {
+    color: #1565c0;
+}
+
+a:visited {
+    color: #1565c0;
+}
