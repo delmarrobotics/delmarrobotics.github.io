@@ -111,7 +111,7 @@ input[type=submit] {
     font-weight: bold;
     background-color: #90caf9;
     color: #1565c0;
-    padding: 10px 20px 10px 20px;
+    margin: 10px; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
