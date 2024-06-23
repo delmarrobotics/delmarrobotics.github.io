@@ -68,8 +68,9 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s;
     box-sizing: border-box;
-    margin-top: 5%;
+    margin-top: 5%;  flex-direction: column;
 }
+
 .box:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -87,4 +88,11 @@ h1 {
 p {
     font-size: 18px; /* smaller paragraph font size */
     text-align: left; /* align to the left */
+}
+
+hr {
+  border: 1px solid #1565c0;
+  border-radius: 10px;
+  height: 8%;
+  width: 95%;
 }
