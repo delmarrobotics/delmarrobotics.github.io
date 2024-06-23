@@ -99,10 +99,9 @@ hr {
   width: 95%;
 }
 
-a:link {
-    color: #1565c0;
-}
-
+a:link,
 a:visited {
     color: #1565c0;
+    font-weight: bold;
+    text-decoration: none;
 }
