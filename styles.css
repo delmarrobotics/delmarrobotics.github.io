@@ -108,9 +108,9 @@ a:visited {
 
 button,
 input[type=submit] {
-    background-color: #add8e6; /* light blue */
-    color: #333333; /* dark grey */
-    padding: 10px 20px;
+    background-color: rgb(8, 145, 211); /* light blue */
+    color: #1565c0; /* dark grey */
+    padding: 10px 20px 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
