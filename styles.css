@@ -88,7 +88,7 @@ h1 {
 p {
     font-size: 18px; /* smaller paragraph font size */
     text-align: left; /* align to the left */
-    padding-left: 5%;
+    padding-left: 8px;
     text-indent: 20px; /* Adjust the indent amount as needed */
 }
 
