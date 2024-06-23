@@ -106,7 +106,8 @@ a:visited {
     text-decoration: none;
 }
 
-button {
+button,
+input[type=submit] {
     background-color: #add8e6; /* light blue */
     color: #333333; /* dark grey */
     padding: 10px 20px;
@@ -115,8 +116,9 @@ button {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s;
-  }
+}
   
-  button:hover {
+button:hover,
+input[type=submit]:hover {
     background-color: #90caf9; /* lighter blue on hover */
-  }
+}
