@@ -102,6 +102,6 @@ hr {
 a:link,
 a:visited {
     color: #1565c0;
-    font-weight: bold;
+    font-weight: normal;
     text-decoration: none;
 }
